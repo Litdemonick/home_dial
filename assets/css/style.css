@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef2f5;
+    color: #222;
+}
+
+.topbar {
+    background-color: #2b6777;
+    color: #fff;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar .titulo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.topbar .usuario {
+    font-size: 13px;
+}
+
+.menu-container {
+    background-color: #3f8792;
+    padding: 6px 20px;
+}
+
+.menu-container a.menu-link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 18px;
+    font-size: 14px;
+    padding: 6px 4px;
+    display: inline-block;
+}
+
+.menu-container a.menu-link:hover {
+    text-decoration: underline;
+}
+
+.contenido {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.tarjeta {
+    background-color: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 4px;
+    padding: 15px 20px;
+    min-width: 160px;
+    flex: 1;
+}
+
+.tarjeta .numero {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2b6777;
+}
+
+.tarjeta .etiqueta {
+    font-size: 13px;
+    color: #555;
+}
+
+.panel {
+    background-color: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 4px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.panel h2, .panel h3 {
+    margin-bottom: 10px;
+    color: #2b6777;
+}
+
+.formulario label {
+    display: block;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.formulario input[type=text],
+.formulario input[type=password],
+.formulario input[type=date],
+.formulario input[type=time],
+.formulario input[type=datetime-local],
+.formulario input[type=number],
+.formulario select,
+.formulario textarea {
+    width: 100%;
+    padding: 6px 8px;
+    border: 1px solid #b0bec5;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.formulario textarea {
+    resize: vertical;
+}
+
+.formulario .fila {
+    display: flex;
+    gap: 15px;
+}
+
+.formulario .fila > div {
+    flex: 1;
+}
+
+.formulario .obligatorio {
+    color: #c0392b;
+}
+
+.botones {
+    margin-top: 15px;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #2b6777;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #235561;
+}
+
+.boton.secundario {
+    background-color: #90a4ae;
+}
+
+.boton.peligro {
+    background-color: #c0392b;
+}
+
+table.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+table.tabla th, table.tabla td {
+    border: 1px solid #cfd8dc;
+    padding: 8px 10px;
+    font-size: 13px;
+    text-align: left;
+}
+
+table.tabla th {
+    background-color: #dfe9ec;
+}
+
+table.tabla tr:nth-child(even) {
+    background-color: #f7fafb;
+}
+
+.buscador {
+    margin-bottom: 12px;
+}
+
+.buscador input {
+    padding: 6px 8px;
+    width: 260px;
+    border: 1px solid #b0bec5;
+    border-radius: 3px;
+}
+
+.aviso {
+    padding: 10px 14px;
+    border-radius: 3px;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.aviso.favorable {
+    background-color: #dcedc8;
+    border: 1px solid #7cb342;
+}
+
+.aviso.retencion {
+    background-color: #fff9c4;
+    border: 1px solid #fbc02d;
+}
+
+.aviso.excesiva {
+    background-color: #ffccbc;
+    border: 1px solid #e64a19;
+}
+
+.aviso.medico {
+    background-color: #ffcdd2;
+    border: 1px solid #c0392b;
+    font-weight: bold;
+}
+
+.etiqueta-rol {
+    display: inline-block;
+    background-color: #b0bec5;
+    color: #222;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+
+footer.pie {
+    text-align: center;
+    font-size: 12px;
+    color: #78909c;
+    padding: 20px;
+}

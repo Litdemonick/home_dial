@@ -1,0 +1,23 @@
+# material del profesor, no hace falta en el repo
+assets/docs/*.pdf
+assets/docs/*.zip
+
+# capturas de pantalla, no es parte del sistema
+export/
+
+# archivos que suban los usuarios (fotos, examenes, etc)
+uploads/*
+!uploads/.gitkeep
+
+# entorno / editor
+.vscode/
+.idea/
+.cl/
+*.log
+
+# sistema operativo
+.DS_Store
+Thumbs.db
+
+# por si alguna vez se agrega un .env con datos sensibles
+.env
